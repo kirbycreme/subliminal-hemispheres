@@ -2,7 +2,7 @@
 let array = ["anger", "beach", "cobra", "dress", "earth", "fence",];
 let inc = 0; 
 window.onload = function(){
-    document.getElementsByName(`main`)[0].value = "#####";
+    document.getElementsByName(`main`)[0].value = "+";
 
 }; 
 
@@ -17,7 +17,7 @@ $(document).keyup(function(event) {
 		console.log("Starting timeout");
 		setTimeout(() => {document.getElementsByName(`main`)[0].value = array[inc];}, msDelay);
         //document.getElementsByName(`main`)[0].value = array[inc];
-		setTimeout(() => {document.getElementsByName(`main`)[0].value = "#####";}, msDelay + 25);
+		setTimeout(() => {document.getElementsByName(`main`)[0].value = "+";}, msDelay + 25);
 		console.log("Word flashed");
         // have another timer for a constant ms time to show the word -> then set back to plus
         inc++;
