@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, Georgia, sans-serif;
+    /* background-color: white; */
+}
+
+.input {
+    width: 20%;
+    height: 50px;
+    font-size: xxx-large;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
